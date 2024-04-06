@@ -81,5 +81,3 @@ Contributions are welcome! Please follow these guidelines:
 For any inquiries or support, please contact [Your Email Address].
 
 ---
-
-This README template provides a basic structure covering project description, features, technologies used, installation and usage instructions, contribution guidelines, license information, acknowledgements, and support details. Customize it to fit your project's requirements and provide relevant information for users and contributors.
