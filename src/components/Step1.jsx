@@ -30,42 +30,42 @@ const Step1 = ({ nextStep, handleChange, formData }) => {
         <p className="text-sm text-center mb-6">What is your favorite color?</p>
         <div className="flex flex-col space-y-4">
           <button
-            className={`flex items-center bg-green-100 ${selectedOption === 'Blue' ? 'bg-blue-600' : ''}`}
+            className={`flex items-center bg-green-100 ${selectedOption === 'Blue' ? 'bg-orange-500' : ''}`}
             onClick={() => handleOptionSelect('Blue')}
           >
             <img src={student} alt="Blue" className="w-12 h-8 mr-2" />
             <span className="text-sm font-medium">Student or soon to be enrolled</span>
           </button>
           <button
-                className={`flex items-center bg-green-100 ${selectedOption === 'Red' ? 'bg-red-300' : ''}`}
+                className={`flex items-center bg-green-100 ${selectedOption === 'Red' ? 'bg-red-500' : ''}`}
                 onClick={() => handleOptionSelect('Red')}
               >
                 <img src={professional} alt="Red" className="w-12 h-8 mr-2" />
                 <span className="text-sm font-medium">Professional pursuing a career</span>
               </button>
               <button
-                className={`flex items-center bg-green-100 ${selectedOption === 'Green' ? 'bg-green-400' : ''}`}
+                className={`flex items-center bg-green-100 ${selectedOption === 'Green' ? 'bg-green-500' : ''}`}
                 onClick={() => handleOptionSelect('Green')}
               >
                 <img src={parent} alt="Green" className="w-12 h-8 mr-2" />
                 <span className="text-sm font-medium">Parent of a school-aged child</span>
               </button>
               <button
-                className={`flex items-center bg-green-100 ${selectedOption === 'Pink' ? 'bg-pink-400' : ''}`}
+                className={`flex items-center bg-green-100 ${selectedOption === 'Pink' ? 'bg-pink-500' : ''}`}
                 onClick={() => handleOptionSelect('Pink')}
               >
                 <img src={learner} alt="Green" className="w-12 h-8 mr-2" />
                 <span className="text-sm font-medium">Lifelong Learner</span>
               </button>
               <button
-                className={`flex items-center bg-green-100 ${selectedOption === 'Violet' ? 'bg-violet-400' : ''}`}
+                className={`flex items-center bg-green-100 ${selectedOption === 'Violet' ? 'bg-violet-500' : ''}`}
                 onClick={() => handleOptionSelect('Violet')}
               >
                 <img src={teacher} alt="Green" className="w-12 h-8 mr-2" />
                 <span className="text-sm font-medium">Teacher</span>
               </button>
               <button
-                className={`flex items-center bg-green-100 ${selectedOption === 'Gray' ? 'bg-gray-400' : ''}`}
+                className={`flex items-center bg-green-100 ${selectedOption === 'Gray' ? 'bg-gray-500' : ''}`}
                 onClick={() => handleOptionSelect('Gray')}
               >
                 <img src={other} alt="Green" className="w-12 h-8 mr-2" />
@@ -75,7 +75,7 @@ const Step1 = ({ nextStep, handleChange, formData }) => {
         </div>
         <div className="flex justify-center ">
           <button
-            className={`py-2 px-4 mt-4 text-white bg-pink-300 hover:bg-pink-600 rounded focus:outline-none focus:bg-pink-600 ${selectedOption ? '' : 'opacity-50 cursor-not-allowed'}`}
+            className={`py-2 px-4 mt-4 text-white bg-pink-400 hover:bg-pink-600 rounded focus:outline-none focus:bg-pink-600 ${selectedOption ? '' : 'opacity-50 cursor-not-allowed'}`}
             onClick={handleNext}
             disabled={!selectedOption}
           >
