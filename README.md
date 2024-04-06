@@ -23,13 +23,12 @@ The Multi-Step Form project is a web application aimed at simplifying the proces
 ### Prerequisites
 
 - Node.js installed on your local machine
-- [Optional: Mention any other prerequisites]
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/multi-step-form.git
+   git clone https://github.com/adarsh-1262/multi-step-form.git
    ```
 
 2. Navigate to the project directory:
@@ -51,10 +50,6 @@ The Multi-Step Form project is a web application aimed at simplifying the proces
 
 2. Open your web browser and navigate to `http://localhost:3000` to view the application.
 
-### [Optional: Deployment]
-
-[Add deployment instructions if applicable]
-
 ## Contributing
 
 Contributions are welcome! Please follow these guidelines:
@@ -64,20 +59,8 @@ Contributions are welcome! Please follow these guidelines:
 - Push to the branch (`git push origin feature`)
 - Create a pull request
 
-## License
-
-[Include license information]
-
-## Acknowledgements
-
-[Optional: Acknowledge any contributors, libraries, or resources used in the project]
-
-## Screenshots/Demo
-
-[Include screenshots or link to a demo video if available]
-
 ## Support
 
-For any inquiries or support, please contact [Your Email Address].
+For any inquiries or support, please contact [adarshsinggh1262@gmail.com].
 
 ---
